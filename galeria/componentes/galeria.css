@@ -1,0 +1,34 @@
+.item {
+    border: 1px solid rgb(136, 33, 84) ;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+
+}
+
+.div-img {
+    border: 1px solid rgb(252, 105, 178);
+    height: 250px;
+
+    grid-column: 1 / 3;
+}
+
+.titulo {
+    grid-column: 1 / 3;
+}
+
+.descripción {
+    grid-column: 1 / 3;
+
+}
+
+.txt-precio {
+    grid-column: 2 / 3;
+    font-weight: 600;
+    margin-left: auto;
+}
+ 
